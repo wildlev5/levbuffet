@@ -1,0 +1,123 @@
+{
+    "intents":[
+        {
+            "tag":"greeting",
+            "patterns":["hello", "how are you", "hi", "whats up", "hey", "good morning", "good afternoon", "yo", "whats good", "hola", "Tsup", "Howdy", "Ahoy", "Whats crackin", "nyelllloo"],
+            "responses":["HI!", "heyyyyy", "Wuddya want?", "ughhh, you again?", "well well well, what have we here?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["bye", "see ya", "im out", "peace", "goodbye", "have a good one", "im leaving", "Mamba out", "so long", "farewell"],
+            "responses": ["bye-bye", "until next time", "get outa my hair", "Don't hurry back", "about time", "LEAVE! NOW!", "come back soonnnn"]
+        },
+        {
+            "tag": "breakfast",
+            "patterns":["What should I eat for breakfast?", "what should I eat this morning", "I want breakfast", "morning", "early", "woke up", "wake up", "am", "start", "Gimme sum breakfast", "breakfast", "kick off my day", "6am", "7am", "8am", "9am", "10am"],
+            "responses":["eggs and bacon", "granola", "pancakes and waffles", "just eat sausage", "Nothing", "french toast", "a bowl of cereal", "toast with jam", "muffin", "hash browns"]
+        },
+        {
+            "tag": "snackOne",
+            "patterns":["What should I eat for snack?", "I want an early day snack", "Inform me of what I should consume for my first snack", "bite", "snack", "munchies", "unti", "quick", "midday", "before", "peckish", "hold me over", "quick", "10am", "11am"],
+            "responses":["Cheetos", "pretzels", "protein bar", "kale chips", "lettuce", "twinkies", "Nothing", "tortilla chips", "fruit", "vegetables", "cheese", "frech fries"]
+        },
+        {
+            "tag": "lunch",
+            "patterns":["What should I eat for lunch?", "I want sum lunch", "What should I eat at lunch time?", "Gimme sum lunch", "lunch", "noon", "afternoon", "middle of the day", "break", "pack", "get me through the day", "12pm", "1pm", "2pm"],
+            "responses":["Peanut butter and jelly sandwhich", "Pizza slice", "McDonalds", "Hot dog", "A salad", "Nothing", "Burrito", "Chicken Sanwhich", "Meat loaf", "Nothing. Lunch is for the weak"]
+            
+        },
+        {
+            "tag": "snacktwo",
+            "patterns":["What should I eat for my second snack of the day?", "I want a late afternoon snack", "Inform me of what I should consume for my second snack", "another snack", "before dinner", "make it until dinner", "simple snack", " early evening", "refuel", "boost", "3pm", "4pm", "5pm"],
+            "responses":["Skittles", "Beef Jerky", "Chips and salsa", "Popcorn", "Takis", "Frozen pizza", "Rice", "Nothing", "Bread role"]
+        },
+        {
+            "tag": "Dinner",
+            "patterns":["What should I eat for dinner?", "What shall I consume for dinner", "What am I bouta cook up for dinner", "I want dinner", "What should I have for my evening meal", "Dinner time", "Dinner", "Gimme sum dinner", "night", "evening", "big meal", "last", "final", "supper", "full", "big", "banquet", "cook", "6pm", "7pm", "8pm", "9pm"],
+            "responses":["fried chicken", "Salmon and rice", "Panda Express", "Pork chop", "Lobster with butter", "Spaghetti and meatballs", "Soup", "Sushi", "Tacos", "Nothing", "Curry", "a massive ribeye steak and potatoes", "Go to a Michelin star restaurant of your choosing" ]
+        },
+        {
+            "tag": "Dessert",
+            "patterns":["What should I eat for dessert", "WHat shall I eat for dessert?", "Inform me of what i will be eating for dessert", "I want dessert", "Gimme sum dessert", "dessert", "after", "sweet", "treat", "sugar", "sugary", "confection", "indulge", "unhealthy", "creamy", "frozen", "baked", "decadent", "late", "post-meal", "goody"],
+            "responses":["Mint chip ice cream", "Chocolate cake", "Pumpkin pie", "Oatmeal raisin cookies", "Tiramisu", "Brownies", "creme brulee", "cupcakes", "Fruit tart", "Fruit assortment", "Stickey toffe pudding", "Lemon bars", "Nothing"]
+        },
+        {
+            "tag": "DrinkBreakfast",
+            "patterns":["What should I drink with breakfast?", "what should I drink for breakfast?", "Drink", "Sip", "Drink to go alongside breakfast", "Liquid to drink in the morning", "hot drink When I wake up", "Energy for the rest of the day", "6am", "7am", "8am", "9am", "10am"],
+            "responses":["Hot tea", " Hot coffee", "Orange juice", "Apple juice", "Smoothie", "Water", "Milk", "Hot chocolate", "Nothing"]
+            
+        },
+        {
+            "tag": "DrinkLunch",
+            "patterns":["What should I drink with lunch?", "I want a drink for lunch", "drink with lunch", "drink for lunch", "Tell me sum to drink with lunch", "Drink to go alongside lunch", "Beverage to hydrate in the middle of the day", "compliment meal", "Easy to drink", "Buy with lunch", "Refreshing", "Cold in hot afternoon", "12pm", "1pm", "2pm"],
+            "responses":[ "Pepsi", "Iced tea", "Iced coffee", "Lemonade", "Gatorade", "Chocolate milk", "Seltzer water", "Energy drink", "Nothing"]
+        },
+        {
+            "tag": "DrinkDinner",
+            "patterns":["What should I drink with Dinner?", "I want a drink with dinner", "Inform me of what I should drink to wash down dinner", "I need a drink to wash down dinner", "Tell me what drink to have with dinner", "I want a drink for Dinner", "Tell me sum to drink with Dinner", "Drink to go alongside Dinner", "Late night beverage", "Drink that will sit well to end the night", "Pairs with gourmet meal", "Liquid that will help me sleep", "Sip to end the evening", "High quality drink", "6pm", "7pm", "8pm", "9pm"],
+            "responses":["Mocktail of your choosing", "Sprite", "Cranberry juice", "Horchata", "Grape juice", "Blood orange soda", "Nothing", "Water with a hint of Lemon"]
+        },
+        {
+            "tag": "DrinkDessert",
+            "patterns":["What should I drink with Dessert?", "I want a drink for dessert", "Tell me sum to drink with dessert", "Drink to go alongside Dessert", "sweet and sugary liquid", "Frozen and thick substance", "I want a drink with dessert", "Gimme sum to slurp while I eat dessert", "What do I drink with dessert?"],
+            "responses":["Chocolate milkshake", "Root beer float", "Boba", "Matcha"]
+        },
+        {
+            "tag": "MidnightSnack",
+            "patterns":["WHat should I eat for a midnight snack", "I want a midnight snack", "Inform me of what I should consume for a midnight snack","Midnight", "Midnight snack", "Middle of the night", "12am", "1am", "2am", "3am", "4am", "when I should be asleep", "Woke up mid sleep and am hungry", "Yummy", "Junk food", "Satisfy cravings", "Dark outside", "Wee hours of the Dawn", "can't sleep"],
+            "responses":["Frozen pizza", "Jalapeno poppers", "Buffaloe wings", "Frosted flakes", "Chex Mix", "Fruits and nuts", "Yogurt", "Peanut butter jelly sandwhich", "Oatmeal", "Avocado toast", "Canned soup", "Leftovers from the fridge", "Boxed mac and cheese", "Chocolate pudding", "Popsicle"]
+        },
+        {
+            "tag": "Calories",
+            "patterns":["How much food should I eat today?", "How much", "How many calories?", "Should I eat a lot of food?", "only a little?", "Stuff my face", "Skip meals?", "calorie count", "over eat", "under eat", "cut", "bulk", "fast"],
+            "responses":[" Eat 100 calories", " Eat 500 calories", " Eat 1000 calories", " Eat 1500 calories", " Eat 2000 calories", "Eat 5000 calories", "Eat 10000 calories", "Eat until your stomach explodes", "Don't eat"]
+        },
+        {
+            "tag": "Healthy",
+            "patterns":["Should I eat healthy today?", "Should I eat unhealthy today?", "Is today my cheat day?", "should I stick to a strict nutritious meal plan?", "Can I eat loosely?", "Eat whatever I want", "eat tasty food", "Stick to fruits and vegetables", "Eat sugary, salty, fatty foods", "healthy", "unhealthy", "Stray from what's best for me", "Be rigid about what I eat"],
+            "responses":["Today you have to eat very healthy", "Today you can eat whatever you want", "Eat the most unhealthy foods you can find", "Today is your cheat day!", "Today is NOT yor cheat day! I'm watching!", "Eat only the most nutritious foods", "Stick to your plan of eating healthy"]
+        },
+        {
+            "tag": "Diets",
+            "patterns":["Should I try a new diet today?", "What should my pattern of eating be today?", "Should I only eat certain food groups today?", "What diet should I start?", "Should I eat only specific types of foods today?", "Should I eat specific foods", "What foods can't I eat", "What restrictions does my eating have today?"],
+            "responses":["You can only eat meat", "You can only eat vegetables", "You can only eat carbs", "You are vegan today", "No meat today", "No vegetables today", "No carbs today", "Today you have to do the Keto diet", "Today you have to do the Whole30 diet", "No sugar today", "All sugar today", "You can eat all types of food today", "Today you fast"]
+        },
+        {
+            "tag": "Utensils",
+            "patterns":["What utensils can I use to eat today?", "What utensils will I use", "Which utensils should I use today", "What tools can I use to pick up my food", "What devices can I eat with?", "implements", "Stab my food", "Grab my food", "Carry my food", "Metal", "Sharp", "round"],
+            "responses":["You may use all utensils", "Just a fork", "Just a spoon", "Just a knife", "Fork and knife", "Fork and spoon", "Just a spork", "Chopsticks", "Any utensil, but it must be plastic", "You must use a sword", "You can only use your hands"]
+        },
+        {
+            "tag": "Chef",
+            "patterns":["Who is the chef for the food I eat today?", "make", "Who will", "Chef", "Cook", "Who should cook my food?", "Which person is going to feed me?", "Will a world famous chef make me something to eat?", "Can an expert chef make my meals for the day?"],
+            "responses":["Gordon Ramsey is going to cook your food", "Your mother is gonna cook your food", "You should cook your own food", "Remy from ratatouille will cook your food", "LeBron James is going to cook your food", "Anyone you choose will cook your food", "A robot will cook your food"]
+        },
+        {
+            "tag": "Cuisine",
+            "patterns":["What cuisine of food should I eat today?", "food should I eat", "What region of the world should my meals originate from?", "What culture should my food be from", "country", "continent", "What should be the flavor profile of my food", "Should I eat?", "Culture", "ethnicity", "Nationality", "What should be the cooking style of my food", "Should I eat food originating from a foreign country?", "Should I eat local American food?"],
+            "responses":["Eat Japanese food", "Eat Chinese food", "Eat American food", "Eat Mexican food", "Eat French food", "Eat Indian food", "Eat Thai food", "Eat Jamaican food", "Eat Nigerian food", "Eat Korean food"]
+        },
+        {
+            "tag": "Wheretoeat",
+            "patterns":["Should I cook my own food today?", "How should I get my food", "eat", "where", "how", "Where should I eat", "I", "My", "Own", "Should I order in?", "takeout", "Should I go to a restaurante?", "Should Igo out", "Do it myself"],
+            "responses":["Go out to a restaurante", "Order takeout", "Make your own food"]
+        },
+        {
+            "tag": "Money",
+            "patterns":["How much money do I spend on food today?", "cash", "moolah", "Should I eat expensive food?", "Should I eat cheap food", "Should I blow all my money on fancy food?", "How big should my budget be?", "bread", "bands", "rax", "Should I limit how much I spend?"],
+            "responses":["Spend no money on food", "Spend $5 on food", "Spend $50 on food", "Spend $67 on food", "Spend $100 on food", "Spend $200 on food", "Spend $500 on food", "Spend $1000 on food", "Spend $10000 on food", "Spend $1000000 on food"]
+        },
+        {
+            "tag": "Flavors",
+            "patterns":["What flavor food should I eat today?", "What tastes should be in what I eat?", "What should I taste when I eat my food?", "What should my food taste like?",  "What should be the flavor profile of my food?", "My food", "in my food", "taste like", "flavor", "taste", "tastebuds", "senses", "palate", "tang", "What flavor food should I eat today?"],
+            "responses":["Sweet", "Savory", "Salty", "Sour", "Spicy", "Bitter", "Umami", "Earthy", "All flavors"]
+        }
+        
+            
+        
+        
+            
+        
+            
+    ]
+}
